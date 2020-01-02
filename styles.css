@@ -1,0 +1,107 @@
+#loginmenu {
+  /* border: 1px black solid; */
+  margin: 0px;
+  height: 15vh;
+}
+
+#interface {
+  visibility: hidden;
+}
+
+#header {
+  /* margin-left: 20px; */
+  /* margin: 20px; */
+  height: 15vh;
+  /* border: 1px solid; */
+  padding: 15px;
+}
+
+#right {
+  color: darkcyan;
+  text-align: right;
+  padding-right: 5vw;
+}
+
+#left {
+  color: lightseagreen;
+  padding-left: 5vw;
+}
+
+#live_mssg {
+  width: 35vw;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.css-sm {
+  font-size: small;
+}
+
+#newuser {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sendrec {
+  /* border: 1px solid black; */
+  height: 10vh;
+  margin-top: 0px;
+}
+
+.vh-75 {
+  height: 70vh;
+  /* border: solid 1px black; */
+}
+
+.contact-width {
+  width: 100%;
+}
+
+#sending-utility {
+  /* border: black solid 1px; */
+  /* align-self: baseline; */
+}
+
+.login-link {
+  text-decoration: none;
+  color: white;
+}
+
+.login-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px 0px #000;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+/* RESPONSIVE */
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  /* margin-left: 50px; */
+}
